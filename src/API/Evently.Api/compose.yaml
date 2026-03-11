@@ -1,0 +1,7 @@
+﻿services:
+  evently.api:
+    image: evently.api
+    build:
+      context: .
+      dockerfile: Dockerfile
+
