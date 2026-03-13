@@ -16,6 +16,11 @@ public static class ApplicationConfiguration
              * Scan and register all MediatR handlers
              */
             config.RegisterServicesFromAssemblies(moduleAssemblies);
+            
+            /**
+             * Pipeline behavior for all MediatR requests
+             */
+            config.AddOpenBehavior(typeof(RequestLoggingPipelineBehavior<,>));
         });
 
         /*

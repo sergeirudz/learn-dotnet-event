@@ -1,3 +1,11 @@
 <Solution>
+    <ItemGroup>
+        <PackageReference Include="Dapper" Version="2.1.72" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+        <PackageReference Include="MediatR" Version="14.1.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.5" />
+        <PackageReference Include="Serilog" Version="4.3.1" />
+    </ItemGroup>
+    
   <Project Path="Evently.Common.Application.csproj" />
 </Solution>
