@@ -18,6 +18,10 @@ builder.Services.AddApplication([Evently.Modules.Events.Application.AssemblyRefe
 // Register src/Common/Evently.Common.Infrastructure/InfrastructureConfiguration.cs
 builder.Services.AddInfrastructure(builder.Configuration.GetConnectionString("Database")!);
 
+// Add appsettings.json
+// src/API/Evently.Api/Extensions/ConfigurationExtensions.cs
+builder.Configuration.AddModuleConfiguration(["events"]);
+
 builder.Services.AddEventsModule(builder.Configuration);
 
 WebApplication app = builder.Build();
