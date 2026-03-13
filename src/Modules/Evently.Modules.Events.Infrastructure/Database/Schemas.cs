@@ -1,4 +1,4 @@
-namespace Evently.Modules.Events.Api.Database;
+﻿namespace Evently.Modules.Events.Infrastructure.Database;
 
 internal static class Schemas
 {

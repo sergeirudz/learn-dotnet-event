@@ -1,10 +1,22 @@
 using Evently.Api.Extensions;
-using Evently.Modules.Events.Api;
+using Evently.Common.Application;
+using Evently.Common.Infrastructure;
+using Evently.Modules.Events.Infrastructure;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.CustomSchemaIds(t => t.FullName?.Replace("+", "."));
+});
+
+// This way any modules can be registered without the need to reference. 
+// src/Common/Evently.Common.Application/ApplicationConfiguration.cs
+builder.Services.AddApplication([Evently.Modules.Events.Application.AssemblyReference.Assembly]);
+
+// Register src/Common/Evently.Common.Infrastructure/InfrastructureConfiguration.cs
+builder.Services.AddInfrastructure(builder.Configuration.GetConnectionString("Database")!);
 
 builder.Services.AddEventsModule(builder.Configuration);
 
@@ -20,4 +32,4 @@ if (app.Environment.IsDevelopment())
 
 EventsModule.MapEndpoints(app);
 
-await app.RunAsync();
+app.Run();
