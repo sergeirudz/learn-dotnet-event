@@ -35,11 +35,12 @@ public static class EventsModule
         this IServiceCollection services,
         IConfiguration configuration)
     {
+        services.AddEndpoints(Presentation.AssemblyReference.Assembly); // Add endpoints from the Presentation layer
+
         services.AddInfrastructure(configuration);
 
         return services;
     }
-
     private static void AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         string databaseConnectionString = configuration.GetConnectionString("Database")!;
