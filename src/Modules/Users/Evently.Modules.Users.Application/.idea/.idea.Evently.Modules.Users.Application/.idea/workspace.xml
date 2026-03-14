@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c9eff21-e09e-412a-af9a-2c9e7ee76c22" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/.idea/.idea.Evently.Modules.Events.Application/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Abstractions/Data/IDbConnectionFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Abstractions/Data/IDbConnectionFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Abstractions/Data/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Abstractions/Data/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/AssemblyReference.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/AssemblyReference.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Data/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Data/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Evently.Modules.Events.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Evently.Modules.Events.Application.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Evently.Modules.Events.Application.slnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/CancelEvent/CancelEventCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/CancelEvent/CancelEventCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/CancelEvent/CancelEventCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/CancelEvent/CancelEventCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/CancelEvent/CancelEventCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/CancelEvent/CancelEventCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/CreateEvent/CreateEventCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/CreateEvent/CreateEventCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/CreateEvent/CreateEventCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/CreateEvent/CreateEventCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/CreateEvent/CreateEventCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/CreateEvent/CreateEventCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/GetEvent/EventResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/GetEvent/EventResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/GetEvent/GetEventQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/GetEvent/GetEventQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/GetEvent/GetEventQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/GetEvent/GetEventQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/GetEvent/TicketTypeResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/GetEvent/TicketTypeResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/GetEvents/EventResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/GetEvents/EventResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/GetEvents/GetEventsQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/GetEvents/GetEventsQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/GetEvents/GetEventsQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/GetEvents/GetEventsQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/PublishEvent/PublishEventCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/PublishEvent/PublishEventCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/PublishEvent/PublishEventCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/PublishEvent/PublishEventCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/PublishEvent/PublishEventCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/PublishEvent/PublishEventCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/RescheduleEvent/EventRescheduledDomainEventHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/RescheduleEvent/EventRescheduledDomainEventHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/RescheduleEvent/RescheduleEventCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/RescheduleEvent/RescheduleEventCommand.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/RescheduleEvent/RescheduleEventCommandHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/RescheduleEvent/RescheduleEventCommandHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/RescheduleEvent/RescheduleEventCommandValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/RescheduleEvent/RescheduleEventCommandValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/SearchEvents/SearchEventsQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/SearchEvents/SearchEventsQuery.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/SearchEvents/SearchEventsQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/SearchEvents/SearchEventsQueryHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Application/Events/SearchEvents/SearchEventsResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Application/Events/SearchEvents/SearchEventsResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/.idea/.idea.Evently.Modules.Events.Domain/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Categories/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Categories/Category.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Categories/CategoryArchivedDomainEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Categories/CategoryArchivedDomainEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Categories/CategoryCreatedDomainEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Categories/CategoryCreatedDomainEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Categories/CategoryErrors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Categories/CategoryErrors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Categories/CategoryNameChangedDomainEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Categories/CategoryNameChangedDomainEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Categories/ICategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Categories/ICategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Evently.Modules.Events.Domain.slnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Events/Event.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Events/Event.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Events/EventCanceledDomainEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Events/EventCanceledDomainEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Events/EventCreatedDomainEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Events/EventCreatedDomainEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Events/EventErrors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Events/EventErrors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Events/EventPublishedDomainEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Events/EventPublishedDomainEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Events/EventRescheduledDomainEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Events/EventRescheduledDomainEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Events/EventStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Events/EventStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/Events/IEventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/Events/IEventRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/TicketTypes/ITicketTypeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/TicketTypes/ITicketTypeRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/TicketTypes/TicketType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/TicketTypes/TicketType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/TicketTypes/TicketTypeCreatedDomainEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/TicketTypes/TicketTypeCreatedDomainEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/TicketTypes/TicketTypeErrors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/TicketTypes/TicketTypeErrors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Domain/TicketTypes/TicketTypePriceChangedDomainEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Domain/TicketTypes/TicketTypePriceChangedDomainEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/.idea/.idea.Evently.Modules.Events.Infrastructure/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Categories/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Categories/CategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Database/EventsDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Database/EventsDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Database/Migrations/20260310205537_Create_Database.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Database/Migrations/20260310205537_Create_Database.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Database/Migrations/20260310205537_Create_Database.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Database/Migrations/20260310205537_Create_Database.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Database/Migrations/EventsDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Database/Migrations/EventsDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Database/Schemas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Database/Schemas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Evently.Modules.Events.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Evently.Modules.Events.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Evently.Modules.Events.Infrastructure.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Evently.Modules.Events.Infrastructure.slnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Events/EventConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Events/EventConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Events/EventRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Events/EventRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/EventsModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/EventsModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/Interceptors/PublishDomainEventsInterceptor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/Interceptors/PublishDomainEventsInterceptor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/TicketTypes/TicketTypeConfiguration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/TicketTypes/TicketTypeConfiguration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Infrastructure/TicketTypes/TicketTypeRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Infrastructure/TicketTypes/TicketTypeRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/.idea/.idea.Evently.Modules.Events.Presentation/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/ApiResults/ApiResults.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/ApiResults/ApiResults.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/ApiResults/ResultExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/ApiResults/ResultExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/AssemblyReference.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/AssemblyReference.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Categories/ArchiveCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Categories/ArchiveCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Categories/CreateCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Categories/CreateCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Categories/GetCategories.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Categories/GetCategories.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Categories/GetCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Categories/GetCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Categories/UpdateCategory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Categories/UpdateCategory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.slnx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Evently.Modules.Events.Presentation.slnx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Events/CancelEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Events/CancelEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Events/CreateEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Events/CreateEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Events/GetEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Events/GetEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Events/GetEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Events/GetEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Events/PublishEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Events/PublishEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Events/RescheduleEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Events/RescheduleEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Events/SearchEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Events/SearchEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/Tags.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/Tags.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/TicketTypes/ChangeTicketTypePrice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/TicketTypes/ChangeTicketTypePrice.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/TicketTypes/CreateTicketType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/TicketTypes/CreateTicketType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/TicketTypes/GetTicketType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/TicketTypes/GetTicketType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Evently.Modules.Events.Presentation/TicketTypes/GetTicketTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Events/Evently.Modules.Events.Presentation/TicketTypes/GetTicketTypes.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/sergeirudz/Documents/GitHub/dotnet/learn-dotnet-event/src/Modules/Users/Evently.Modules.Users.Application" value="3Ax4gnAltpbS9NI56uSDcp8XZnT" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3Ax4gnAltpbS9NI56uSDcp8XZnT" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "master",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c9eff21-e09e-412a-af9a-2c9e7ee76c22" name="Changes" comment="" />
+      <created>1686901701618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686901701618</updated>
+      <workItem from="1773521002732" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
