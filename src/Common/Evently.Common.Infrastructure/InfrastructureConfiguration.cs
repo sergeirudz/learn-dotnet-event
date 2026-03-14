@@ -21,6 +21,8 @@ public static class InfrastructureConfiguration
 
         services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
 
+        services.TryAddSingleton<PublishDomainEventsInterceptor>();
+        
         services.TryAddSingleton<IDateTimeProvider, DateTimeProvider>();
         
         services.AddStackExchangeRedisCache(options =>
