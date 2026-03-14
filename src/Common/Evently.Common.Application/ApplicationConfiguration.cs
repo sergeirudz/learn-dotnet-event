@@ -2,7 +2,6 @@
 using Evently.Common.Application.Behaviors;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
-
 namespace Evently.Common.Application;
 
 public static class ApplicationConfiguration
@@ -17,6 +16,11 @@ public static class ApplicationConfiguration
              * Scan and register all MediatR handlers
              */
             config.RegisterServicesFromAssemblies(moduleAssemblies);
+            
+            /**
+             * Validation pipeline for all MediatR requests
+             */
+            config.AddOpenBehavior(typeof(ExceptionHandlingPipelineBehavior<,>));
             
             /**
              * Mediatr pipeline exceptions handling
