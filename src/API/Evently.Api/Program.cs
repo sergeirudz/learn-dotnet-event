@@ -30,6 +30,10 @@ builder.Services.AddInfrastructure(
 // src/API/Evently.Api/Extensions/ConfigurationExtensions.cs
 builder.Configuration.AddModuleConfiguration(["events"]);
 
+builder.Services.AddHealthChecks()
+    .AddNpgSql(databaseConnectionString) // HealthCheck for PostgreSQL database
+    .AddRedis(redisConnectionString); // HealthCheck for Redis cache
+
 builder.Services.AddEventsModule(builder.Configuration);
 
 WebApplication app = builder.Build();
@@ -43,6 +47,12 @@ if (app.Environment.IsDevelopment())
 }
 
 EventsModule.MapEndpoints(app);
+
+app.MapHealthChecks("health", new HealthCheckOptions // create health check endpoint at /health
+{
+    // AspNetCore.HealthChecks.UI.Client 
+    ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
+});
 
 // Logging middleware, track incoming API requests and log them with Serilog
 UseSerilogRequestLogging
