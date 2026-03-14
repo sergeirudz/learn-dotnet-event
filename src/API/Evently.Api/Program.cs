@@ -27,7 +27,8 @@ builder.Services.AddSwaggerGen(options =>
 // src/Common/Evently.Common.Application/ApplicationConfiguration.cs
 builder.Services.AddApplication([
     Evently.Modules.Events.Application.AssemblyReference.Assembly,
-    Evently.Modules.Users.Application.AssemblyReference.Assembly]);
+    Evently.Modules.Users.Application.AssemblyReference.Assembly,
+    Evently.Modules.Ticketing.Application.AssemblyReference.Assembly]);
 
 // Register src/Common/Evently.Common.Infrastructure/InfrastructureConfiguration.cs
 builder.Services.AddInfrastructure(
@@ -36,7 +37,7 @@ builder.Services.AddInfrastructure(
 
 // Add appsettings.json
 // src/API/Evently.Api/Extensions/ConfigurationExtensions.cs
-builder.Configuration.AddModuleConfiguration(["events", "users"]);
+builder.Configuration.AddModuleConfiguration(["events", "users", "ticketing"]);
 
 builder.Services.AddHealthChecks()
     .AddNpgSql(databaseConnectionString) // HealthCheck for PostgreSQL database
@@ -44,6 +45,8 @@ builder.Services.AddHealthChecks()
 
 builder.Services.AddEventsModule(builder.Configuration);
 builder.Services.AddUsersModule(builder.Configuration);
+builder.Services.AddTicketingModule(builder.Configuration);
+
 
 WebApplication app = builder.Build();
 
