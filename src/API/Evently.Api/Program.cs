@@ -22,7 +22,9 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddApplication([Evently.Modules.Events.Application.AssemblyReference.Assembly]);
 
 // Register src/Common/Evently.Common.Infrastructure/InfrastructureConfiguration.cs
-builder.Services.AddInfrastructure(builder.Configuration.GetConnectionString("Database")!);
+builder.Services.AddInfrastructure(
+    builder.Configuration.GetConnectionString("Database")!,
+    builder.Configuration.GetConnectionString("Cache")!);
 
 // Add appsettings.json
 // src/API/Evently.Api/Extensions/ConfigurationExtensions.cs
