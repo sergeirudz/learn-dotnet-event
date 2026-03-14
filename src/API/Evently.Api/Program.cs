@@ -7,6 +7,10 @@ WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 builder.Host.UseSerilog((context, loggerConfig) => loggerConfig.ReadFrom.Configuration(context.Configuration));
 
+// Eception handling middleware
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -40,5 +44,7 @@ EventsModule.MapEndpoints(app);
 
 // Logging middleware, track incoming API requests and log them with Serilog
 UseSerilogRequestLogging
+    
+app.UseExceptionHandler();
 
 app.Run();

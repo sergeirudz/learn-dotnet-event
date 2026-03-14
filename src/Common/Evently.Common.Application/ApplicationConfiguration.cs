@@ -1,4 +1,5 @@
 ﻿using System.Reflection;
+using Evently.Common.Application.Behaviors;
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -16,6 +17,11 @@ public static class ApplicationConfiguration
              * Scan and register all MediatR handlers
              */
             config.RegisterServicesFromAssemblies(moduleAssemblies);
+            
+            /**
+             * Mediatr pipeline exceptions handling
+             */
+            config.AddOpenBehavior(typeof(ExceptionHandlingPipelineBehavior<,>));
             
             /**
              * Pipeline behavior for all MediatR requests
