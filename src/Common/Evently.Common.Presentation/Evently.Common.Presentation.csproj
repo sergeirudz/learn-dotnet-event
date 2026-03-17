@@ -5,7 +5,10 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Evently.Common.Domain\Evently.Common.Domain.csproj" />
+        <PackageReference Include="MassTransit.Abstractions" Version="9.0.1" />
     </ItemGroup>
 
+    <ItemGroup>
+        <ProjectReference Include="..\Evently.Common.Domain\Evently.Common.Domain.csproj" />
+    </ItemGroup>
 </Project>
